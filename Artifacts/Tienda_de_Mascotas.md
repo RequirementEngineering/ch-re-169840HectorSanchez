@@ -1,5 +1,7 @@
 # Tienda de mascotas
 # Introduction
+The next section will talk about the general idea of the project, it will talk about the purpose, scope, definitions, and references. 
+
 ## Purpose
 
 
