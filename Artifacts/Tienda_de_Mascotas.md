@@ -23,7 +23,7 @@ The next section will give an overview of the system. The section will explain h
 ## Product Perspective
 
 The system consists of an application for consultation and modification of data, therefore it is divided into two parts.
-The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each product and be able to modify this state.
+The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each pet, such as age, breed and 
 
 
 ## Product functions
