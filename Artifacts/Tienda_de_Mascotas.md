@@ -18,6 +18,8 @@ Although the project can be managed and designed to be commercialized, it will b
 ## References
 
 # Overall Description
+
+The next section will give an overview of the system. The section will explain how the system interacts with other systems. These Systems can be a database where the data will be accesed. 
 ## Product Perspective
 
 The system consists of an application for consultation and modification of data, therefore it is divided into two parts.
