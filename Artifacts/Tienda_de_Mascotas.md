@@ -24,8 +24,8 @@ The next section will give an overview of the system. The section will explain h
 ## Product Perspective
 
 The system consists of an application for consultation and modification of data, therefore it is divided into two parts:
-*The first part is the area of the cashier, here the cashier can check how many is there in stock and the price of the product.
-*The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each pet, such as type, breed, age, and status. The status means if the Dog is ready to leave, or is still in care. It can be a cleaning procedure.
+  *The first part is the area of the cashier, here the cashier can check how many is there in stock and the price of the product.
+  *The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each pet, such as type, breed, age, and status. The status means if the Dog is ready to leave, or is still in care. It can be a cleaning procedure.
 
 
 ## Product functions
