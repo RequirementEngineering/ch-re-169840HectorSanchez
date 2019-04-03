@@ -27,20 +27,23 @@ The system consists of an application for consultation and modification of data,
   *The first part is the area of the cashier, here the cashier can check how many is there in stock and the price of the product.
   *The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each pet, such as type, breed, age, and status. The status means if the Dog is ready to leave, or is still in care. It can be a cleaning procedure.
 
+Change:
+The consultation will be made in a separate way.
+First, it will be checked if there is stock, and price of the product.
+The you can make changes to these products
+
 
 ## Product functions
 
-The main function of the system is to provide information to the user and the complete management of the system to the administrator. Thus making an application for the management of a electronics store.
+The main function of the system is to provide information to the user and the complete management of the system to the administrator. Thus making an application for the management of a Pets store.
 
 ## User characteristics
-
-There are three types of users, the end user, the administrator and the owner of the electronics store. Each of them has different use cases and therefore each one has different characteristics in the requirements
-
-The end user can only use the application to find stocks of the product. This means that the user can only interact with and search the search interface. It is important that the product that is searched matches the data.
-
-The owner of the electronics store does not have to navigate in the application, its function will be to modify and update the products but will not have access to the change of ID unless it is a new product.
-
-The administrator will have access to the data, being able to modify it and confirm that the information is valid.
+In these system, ther will be three types of users. The first type of user, is the client. 
+1. The client can create orders, and pay.
+The second user, is the employee
+2. The employee, can check if there is stock of the product, and can confirm the order of the client.
+The third user, is the administrator
+3. The adminisrator, doesn't need to work on the stock, and confirmation of the order of all the clients. But he needs access to restock, and also modify the prices of the product. 
 
 ## Constraints
 The different interfaces that are needed can become a restriction due to the difficulty of adapting. Since it opens a difference of navigation depending on the type of user.
