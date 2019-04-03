@@ -7,7 +7,8 @@ The next section will talk about the general idea of the project, it will talk a
 
 ## Scope
 
-"Pets Store Management System " will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete products from a store. It will have as data the name of the product, an ID and its price. Where the user will be able to consult said information
+"Pets Store Management System " will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete products from a store. It will have as data the name of the product, an ID and its price. Where the user will be able to consult said information. The products include pets, food, toys, collars, cat litter, cages, and aquariums. 
+The users that can consult the system are the "cashier", owner-administrator, and the client.
 
 There are different users with different authority in the system, to which, not all users can access the data in the same way.
 
@@ -22,8 +23,9 @@ Although the project can be managed and designed to be commercialized, it will b
 The next section will give an overview of the system. The section will explain how the system interacts with other systems. These Systems can be a database where the data will be accesed. 
 ## Product Perspective
 
-The system consists of an application for consultation and modification of data, therefore it is divided into two parts.
-The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each pet, such as type, breed, age, and status. The status means if the Dog is ready to leave, or is still in care. It can be a cleaning procedure.
+The system consists of an application for consultation and modification of data, therefore it is divided into two parts:
+*The first part is the area of the cashier, here the cashier can check how many is there in stock and the price of the product.
+*The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each pet, such as type, breed, age, and status. The status means if the Dog is ready to leave, or is still in care. It can be a cleaning procedure.
 
 
 ## Product functions
