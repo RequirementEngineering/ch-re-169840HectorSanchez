@@ -39,13 +39,15 @@ The main function of the system is to provide information to the user and the co
 
 ## User characteristics
 In these system, ther will be three types of users. The first type of user, is the client. 
-1. The client can create orders, and pay.
-2. The employee, can check if there is stock of the product, and can confirm the order of the client.
-3. The adminisrator, doesn't need to work on the stock, and confirmation of the order of all the clients. But he needs access to restock, and also modify the prices of the product. 
-| Client        | Can create orders, and pay.                                                                                                                                      |
+
+| Actor         | Role                                                                                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Employee      | Can check if there is stock of the product, and can confirm the order of the client.                                                                             |
 | Administrator | Doesn't need to work on the stock, and confirmation of the order of all the clients.  But he needs access to restock, and also modify the prices of the product. |
+| Client        | Can create orders, and pay.                                                                                                                                      |
+
+
+
 
 ## Constraints
 The different interfaces that are needed can become a restriction due to the difficulty of adapting. Since it opens a difference of navigation depending on the type of user.
