@@ -3,7 +3,7 @@
 The next section will talk about the general idea of the project, it will talk about the purpose, scope, definitions, and references. 
 
 ## Purpose
-The purpose for the system, will be improving. We as people, are at a beginning just a little speck of dust. But with constant hardwork and dedication we can achieve the better of ourselves. 
+There is a need to start developing programs. That work and are in need in the real world. Here we have a problematic. For the Pet Store, that needs a CRUD to be developed.
 
 ## Scope
 
