@@ -1,4 +1,4 @@
-# Tienda de mascotas
+# Scales Pet Shop CRUD
 # Introduction
 The next section will talk about the general idea of the project, it will talk about the purpose, scope, definitions, and references. 
 
@@ -41,6 +41,8 @@ In these system, ther will be three types of users. The first type of user, is t
 | Administrator | He can access the products, and make internal changes to the products attributes. He can order the employee to re-stock.|
 | Client        | Can search for a product, and see the description and attributes of the product. He can also save the products he wants in an wish-list.                                                                                                                                       |
 
+
+![Use Case](https://github.com/RequirementEngineering/ch-re-169840HectorSanchez/blob/master/Artifacts/Pet%20Store%20Use%20Case.jpg?raw=true)
 ## Constraints
 The different interfaces that are needed can become a restriction due to the difficulty of adapting. Since it opens a difference of navigation depending on the type of user.
 
@@ -88,3 +90,4 @@ Desc: The client can search a product and see the information about that product
 Desc: Send a notification to an employee when a client needs help.
 ### FR6: Check for re-stock
 Desc: The employee can check if there is a need for re-stock in any of the areas.
+
