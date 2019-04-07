@@ -37,9 +37,9 @@ In these system, ther will be three types of users. The first type of user, is t
 
 | Actor         | Role                                                                                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Employee      | Can check if there is stock of the product, when a products needs stock, the employee will go and re-stock.|
+| Employee      | Can check if there is stock of the product, when a products needs stock, the employee will go and re-stock, see if a client needs help.|
 | Administrator | He can access the products, and make internal changes to the products attributes. He can order the employee to re-stock.|
-| Client        | Can search for a product, and see the description and attributes of the product.                                                                                                                                      |
+| Client        | Can search for a product, and see the description and attributes of the product. He can also save the products he wants in an wish-list.                                                                                                                                       |
 
 ## Constraints
 The different interfaces that are needed can become a restriction due to the difficulty of adapting. Since it opens a difference of navigation depending on the type of user.
@@ -49,18 +49,31 @@ The hardware can be an impediment due to the high cost it can generate for a pet
 If you want the end user to search for the product, you need a more functional interface that is face-to-face / physical.
 The product needs to be easy to use, and simple. As the clients and employees doesnt need a capacitation to start using it.
 ## Assumptions and dependencies
+| Assumptions(AS) & Dependencies(DE) | Description                                                          |
+|------------------------------------|----------------------------------------------------------------------|
+| AS-1                               | The system will be used in a desktop.                                |
+| AS-2                               | Only Employees can access the stock area of the software.            |
+| AS-3                               | The clients can only search and find the attributes of the products. |
+| DE-1                               | Needs a Computer, Internet-Connected, and Electricity to work        |
+| DE-2                               | Needs a Database connection                                          |
 
-## Apportioning of requirements
 
 # Specific requirements
 
 ## External interface Requirements
-
-Here you will see all the details about the inputs and outputs that have been planned for the system. There will also be a description of hardware, software and its communication between interfaces and a basic prototype of the user interface is also provided.
+This section provides a detailed description of all inputs into and outputs from the system. It also gives a
+description of the hardware, software and communication interfaces and provides basic prototypes of the
+user interface.
 
 ## User Interface
+The first instance when the user enters the program. He can see a screen where there is a search button and a text box where the user will insert the object's name. And click on search, the program will then send the user to screen where the products will appear.
+If the user is an employee or administrator, he must sign into his account, the account type will be: ID-Scales@Scales.com Example.
+After this, if he is an employee he can see in the system if a certain products needs re-stock, and he will be notified, this also happens if a client asks for help. 
+In case of an administrator, he must sign into his account. Then in the system here, he can make changes to the diferrent products and order re-stocks to the employees. Here is where the CRUD comes, the administrator can Create, Read, Update, Delete.
 ## Hardware Interface
+It doesn't have any designated hardware, but it can be used on PCs.
 ## Communications interfaces
-
+The employee will be notified when he needs to make a re-stock.
 # Functional requirements
-
+###FR1: CRUD for Administrator:
+Desc: 
