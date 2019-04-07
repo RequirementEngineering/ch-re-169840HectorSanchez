@@ -75,5 +75,16 @@ It doesn't have any designated hardware, but it can be used on PCs.
 ## Communications interfaces
 The employee will be notified when he needs to make a re-stock.
 # Functional requirements
-###FR1: CRUD for Administrator:
-Desc: 
+### FR1: CRUD for Administrator:
+Desc: The administrator can change, read, update or delete the different products. 
+### FR2: Order re-stocks- Admin
+Desc: The administrator can order to re-stock to a certain employee.
+### FR3: Receive notifications for Re-stock or help
+Desc: The Employee must receive a notification when he needs to re-stock
+DEP: FR3, FR5
+### FR4: Search the product
+Desc: The client can search a product and see the information about that product.
+### FR5: Send notification for help
+Desc: Send a notification to an employee when a client needs help.
+### FR6: Check for re-stock
+Desc: The employee can check if there is a need for re-stock in any of the areas.
