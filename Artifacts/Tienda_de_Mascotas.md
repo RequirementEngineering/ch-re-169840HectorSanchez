@@ -7,23 +7,22 @@ There is a need to start developing programs. That work and are in need in the r
 
 ## Scope
 
-"Pets Store Management System " will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete products from a store. It will have as data: the name of the product, an ID and its price. Where the user will be able to consult said information. The products include pets, food, toys, collars, cat litter, cages, and aquariums. 
-The users that can consult the system are the employeer, owner-administrator, and the client.
-
+"Pets Store Management System " will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete the animals that are currently in the pet-store. The data that will be store about the pets will be: IdPet, NamePet, WeightPet, PetBreed, and different checks for the services and status of the pet. There will be restrictions on who can access the information, in example a Cashier can not change the attribute of ate.  
+The users that can consult the system are the Cashier, the Stylist, the Stocker, and the Pet Shop Assistant.
 There are different users with different authority in the system, to which, not all users can access the data in the same way.
-
 Although the project can be managed and designed to be commercialized, it will be more focused on an academic purpose.
 
 ## Definitions, acronyms, and abbreviations
-Admin: Administrator
+
 ## References
 
 # Overall Description
 
 The next section will give an overview of the system. The section will explain how the system interacts with other systems. These Systems can be a database where the data will be accesed. 
 ## Product Perspective
-
-The system consists of an application for consultation and modification of data, therefore it is divided into two parts:
+The system consists of a CRUD the diferrent employees can Create, Read, Update, and Delete the data.:
+*Create:
+The system consists of an application for consultation and modification of data, therefore it is divided into 
   *The first part is the area of the search. Here the client can search and see the information of the product.
   *The application needs a constant communication with the database to retrieve the information in real time and thus show the current status of each pet, such as type, breed, age, and status. The status means if the Pet is ready to leave, or is still in care. It can be a cleaning procedure.(These status is only valid in pets, the other products can't have this status)
 
@@ -102,4 +101,13 @@ Desc: The employee can check if there is a need for re-stock in any of the areas
  5. Measure Heart Rate
  6. Feel legs, and abdomen. (Feeling these areas can detect pain or discomfort)
  
- After, the pet have had the checkup, then the Stylist proccess continues
+ After, the pet have had the checkup, then the Stylist proccess continues the process is:
+ 1. Cut hair
+ 2. Brush hair
+ 3. Wash
+ 4. Drying
+ 5. Rebrush
+ 6. Trim Nails
+ 7. Extra: You can add accesories to the dog ex: Ribbon, etc.
+ 
+ The problem is mainly in the area of the pets, they only use paper to keep information about the animals. It can be useful to have a program that retains the information of the pets that are currently in the cleaning area or the checkup. The use of paper can complicate the process, because they often forget to write on the paper, and the information in the paper is not certain. These can make them lose money.
