@@ -93,3 +93,13 @@ Desc: The employee can check if there is a need for re-stock in any of the areas
 
 # Class Diagrams
 
+# Elicitation
+ There was an Elicitation process with Valeria Perez, the process in which a Petshop does a check-up, is by: A physical examination.
+ 1. Check Weight, Body Temperature
+ 2. Ask questions about the pet, these questions are: Diet, Exercise, Secretion, livehood.
+ 3. Check Hair, Skin, Eyes, Ears
+ 4. Check breathing, and teeth.
+ 5. Measure Heart Rate
+ 6. Feel legs, and abdomen. (Feeling these areas can detect pain or discomfort)
+ 
+ After, the pet have had the checkup, then the Stylist proccess continues
