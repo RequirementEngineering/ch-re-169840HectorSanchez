@@ -91,3 +91,5 @@ Desc: Send a notification to an employee when a client needs help.
 ### FR6: Check for re-stock
 Desc: The employee can check if there is a need for re-stock in any of the areas.
 
+# Class Diagrams
+
