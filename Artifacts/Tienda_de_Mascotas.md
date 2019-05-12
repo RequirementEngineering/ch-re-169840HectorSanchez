@@ -33,7 +33,6 @@ The main function of the system is to provide information to the user about the 
 Thus making an application for the management of pets in a Pets store.
 
 ## User characteristics
-In these system, ther will be three types of users. The first type of user, is the client. 
 
 | Actor              | Role                                                                                                                                                                                                                                                                                               |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -41,6 +40,8 @@ In these system, ther will be three types of users. The first type of user, is t
 | Stocker            | The role for the Stocker will be to Check Stock, and also Re-Stock the Shelves in case there is a need to.                                                                                                                                                                                         |
 | Pet Shop Assistant | The role for the Pet Shop Assistant will be to Feed Pets, Clean the Cages when they are dirty (These includes fish tanks), Advise the customer in which pet to buy, Check Fish Tanks, and Check the animal in the Physical Check-Up                                                                |
 | Stylist            | The role of the Stylist will be to Cut the pet's fur, Brush the fur, Wash the Pet (In these process we make a sub-process of checking the anal glandules), Dry the pet, and finally cut the Pet's nails. The owner can also decide to add a Accesory, these increases the cost but it's an option. |
+| Client             | His role is to buy products, or leave the pet for it to be checked or clean.                                                                                                                                                                                                                       |
+| Pet                | His role is to be checked and cleaned.                                                                                                                                                                                                                                                             |
 
 
 ![Use Case](https://github.com/RequirementEngineering/ch-re-169840HectorSanchez/blob/master/Artifacts/Pet%20Store%20Use%20Case.jpg?raw=true)
