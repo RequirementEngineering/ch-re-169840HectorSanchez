@@ -29,17 +29,18 @@ The system consists of an application for consultation and modification of data,
 
 ## Product functions
 
-The main function of the system is to provide information to the user about the pet status, and when 
-The main function of the system is to provide information to the user and the complete management of the system to the administrator. Thus making an application for the management of a Pets store.
+The main function of the system is to provide information to the user about the pet status, and when the pet is ready to go.
+Thus making an application for the management of pets in a Pets store.
 
 ## User characteristics
 In these system, ther will be three types of users. The first type of user, is the client. 
 
-| Actor         | Role                                                                                                                                                             |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Employee      | Can check if there is stock of the product, when a products needs stock, the employee will go and re-stock, see if a client needs help.|
-| Administrator | He can access the products, and make internal changes to the products attributes. He can order the employee to re-stock.|
-| Client        | Can search for a product, and see the description and attributes of the product. He can also save the products he wants in an wish-list.                                                                                                                                       |
+| Actor              | Role                                                                                                                                                                                                                                                                                               |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cashier            | The role for the cashier will be to Collect the payment, Give change to the client, Charge the customer, and finally give the product to the client.                                                                                                                                               |
+| Stocker            | The role for the Stocker will be to Check Stock, and also Re-Stock the Shelves in case there is a need to.                                                                                                                                                                                         |
+| Pet Shop Assistant | The role for the Pet Shop Assistant will be to Feed Pets, Clean the Cages when they are dirty (These includes fish tanks), Advise the customer in which pet to buy, Check Fish Tanks, and Check the animal in the Physical Check-Up                                                                |
+| Stylist            | The role of the Stylist will be to Cut the pet's fur, Brush the fur, Wash the Pet (In these process we make a sub-process of checking the anal glandules), Dry the pet, and finally cut the Pet's nails. The owner can also decide to add a Accesory, these increases the cost but it's an option. |
 
 
 ![Use Case](https://github.com/RequirementEngineering/ch-re-169840HectorSanchez/blob/master/Artifacts/Pet%20Store%20Use%20Case.jpg?raw=true)
