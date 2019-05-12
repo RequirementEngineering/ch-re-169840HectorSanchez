@@ -29,6 +29,7 @@ The system consists of an application for consultation and modification of data,
 
 ## Product functions
 
+The main function of the system is to provide information to the user about the pet status, and when 
 The main function of the system is to provide information to the user and the complete management of the system to the administrator. Thus making an application for the management of a Pets store.
 
 ## User characteristics
