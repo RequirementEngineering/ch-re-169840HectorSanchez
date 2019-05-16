@@ -95,8 +95,11 @@ Desc: The employee can check if there is a need for re-stock in any of the areas
 
 # Class Diagrams
 
-# Elicitation
- There was an Elicitation process with Valeria Perez, the process in which a Petshop does a check-up, is by: A physical examination.
+# Elicitation;
+ There was an Elicitation process with Valeria Perez:
+ Valeria: The first thing they do, will be bring your dog or cat to the Petstore. Inside the Petstore you go to left side of the entrance, there you will see a cashier. In the cashier, they will register your dog, and ask what will you like to do. It can be a normal check-up, or a Check-Up with bath included. (She said that the reason they dont give a Bath only is because they need to confirm that the dog or cat is in healthy conditions. If it isn't they will first try to eliminate the "disease").
+ 
+ The process in which a Petshop does a check-up, is by: A physical examination:
  1. Check Weight, Body Temperature
  2. Ask questions about the pet, these questions are: Diet, Exercise, Secretion, livehood.
  3. Check Hair, Skin, Eyes, Ears
