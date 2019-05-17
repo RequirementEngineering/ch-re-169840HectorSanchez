@@ -1,4 +1,10 @@
 # Scales Pet Shop CRUD
+Universidad Autonoma de Ciudad Juarez
+Instituto de Ingeneria y Tecnologia
+Ingeneria en Software
+Hector Gerardo Sanchez Quiroga 
+169840
+Desarollo de requisitos de software
 # Introduction
 The next section will talk about the general idea of the project, it will talk about the purpose, scope, definitions, and references. 
 
