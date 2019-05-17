@@ -37,7 +37,6 @@ Thus making an application for the management of pets in a Pets store.
 | Actor              | Role                                                                                                                                                                                                                                                                                               |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Cashier            | The role for the cashier will be to Collect the payment, Give change to the client, Charge the customer, and finally give the product to the client.                                                                                                                                               |
-| Stocker            | The role for the Stocker will be to Check Stock, and also Re-Stock the Shelves in case there is a need to.                                                                                                                                                                                         |
 | Pet Shop Assistant | The role for the Pet Shop Assistant will be to Feed Pets, Clean the Cages when they are dirty (These includes fish tanks), Advise the customer in which pet to buy, Check Fish Tanks, and Check the animal in the Physical Check-Up                                                                |
 | Stylist            | The role of the Stylist will be to Cut the pet's fur, Brush the fur, Wash the Pet (In these process we make a sub-process of checking the anal glandules), Dry the pet, and finally cut the Pet's nails. The owner can also decide to add a Accesory, these increases the cost but it's an option. |
 | Client             | His role is to buy products, or leave the pet for it to be checked or clean.                                                                                                                                                                                                                       |
@@ -79,21 +78,19 @@ It doesn't have any designated hardware, but it can be used on PCs.
 ## Communications interfaces
 The employee will be notified when he needs to make a re-stock.
 # Functional requirements
-### FR1: CRUD for Administrator:
-Desc: The administrator can change, read, update or delete the different products. 
-### FR2: Order re-stocks- Admin
-Desc: The administrator can order to re-stock to a certain employee.
+### FR1: Change Status for VET:
+Desc: The vet can change the status of the Check-UP status
+### FR2: Change Status for Stylist:
+Desc: The Stylist can change the Status of the Clean Status
 ### FR3: Receive notifications for Re-stock or help
-Desc: The Employee must receive a notification when he needs to re-stock
-DEP: FR3, FR5
+Desc: The Employee must receive a notification when an animal needs to be feed
 ### FR4: Search the product
 Desc: The client can search a product and see the information about that product.
-### FR5: Send notification for help
-Desc: Send a notification to an employee when a client needs help.
-### FR6: Check for re-stock
-Desc: The employee can check if there is a need for re-stock in any of the areas.
 
-# Class Diagrams
+
+
+# BPM
+![BPM](https://github.com/RequirementEngineering/ch-re-169840HectorSanchez/blob/master/Artifacts/PetStor_BPD.jpg?raw=true "BPM")
 
 # Elicitation;
  There was an Elicitation process with Valeria Perez:
