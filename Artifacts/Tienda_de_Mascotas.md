@@ -7,12 +7,21 @@ There is a need to start developing programs. That work and are in need in the r
 
 ## Scope
 
-"Pets Store Management System " will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete the animals that are currently in the pet-store. The data that will be store about the pets will be: IdPet, NamePet, WeightPet, PetBreed, and different checks for the services and status of the pet. There will be restrictions on who can access the information, in example a Cashier can not change the attribute of ate.  
+"Pets Store Management System " will be an application designed to be developed in Java with a database connection, where you can create, read, update and delete the animals that are currently in the pet-store. The data that will be store about the pets will be: IdPet, NamePet, WeightPet, PetBreed, PetOwner, and different checks for the services and status of the pet. There will be restrictions on who can access the information, in example a Cashier can not change the attribute of ate.  
 The users that can consult the system are the Cashier, the Stylist, the Stocker, and the Pet Shop Assistant.
 There are different users with different authority in the system, to which, not all users can access the data in the same way.
 Although the project can be managed and designed to be commercialized, it will be more focused on an academic purpose.
 
 ## Definitions, acronyms, and abbreviations
+| Acronyms, and abbreviations | Definitions                                                                                                                                                                       |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pet_ID                      | This attribute will be the Id that the Pet will receive when it gets registered in the store. The Id will help the System to distinguish these pet. And make a Particular Object. |
+| Pet_Name                    | This attribute will give the name of the pet.                                                                                                                                     |
+| Pet_Weight                  | This attribute will give the weight of the pet.                                                                                                                                   |
+| Pet_Breed                   | This attribute will give the breed of the pet.                                                                                                                                    |
+| Pet_Owner                   | This attribute will give the name of the pet Owner.                                                                                                                               |
+| CleanStatus                 | This attribute will give the user to known if an animal has been cleaned, or hasn't.                                                                                              |
+| CheckStatus                 | This attribute will give the user information of the pet, if it has been checked, sick, or is healthy.                                                                            |
 
 ## References
 
